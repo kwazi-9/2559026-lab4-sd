@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Country Information</h1>
+    
+    <form id="country-form">
+        <input type="text" id="country-input" placeholder="Enter country name...">
+        <button type="submit">Get Country Info</button>
+    </form>
+    
+    <p id="error-message"></p>
+    <p id="loading"></p>
+    
+    <section id="country-info">
+        <section class="content">
+            <section class="country-details">
+                <h2 id="country-name"></h2>
+                <ul style="list-style-type:square">
+                    <li>Capital: <span id="capital"></span></li>
+                    <li>Population: <span id="population"></span></li>
+                    <li>Region: <span id="region"></span></li>
+                    <li>Flag:</li>
+                <section class="country-flag">
+                    <img id="flag" alt="Country flag">
+                </section>
+                <li>Bordering Countries:</li>
+                </ul>
+
+            </section>           
+
+            </section>
+            <section class="bordering-countries">
+                <ul>
+                        <ul style="list-style-type:square">
+                            <li><section id="neighbors"></section></li>
+                        </ul>
+                </ul>
+                <p  class="guild" id="no-borders">This country has no bordering countries.</p>
+            </section>
+        </section>
+
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
