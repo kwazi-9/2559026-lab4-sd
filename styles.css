@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 30%;
+    margin: 0 20%;
+    padding: 20px;
+}
+
+h1, #country-form {
+    position: relative;
+    left: -40%;
+    width: max-content;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#loading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#country-info {
+    display: none;
+}
+
+.content {
+    display: table;
+    width: 100%;
+}
+
+.country-details {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+}
+
+.bordering-countries {
+
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+}
+
+.country-flag img {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+}
+
+.neighbor {
+    margin-bottom: 10px;
+}
+
+.neighbor img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.flag-container {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.neighbor-row {
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.neighbor-name {
+    vertical-align: top;
+    width: 70%;
+    font-size: 16px;
+}
+
+.neighbor-flag {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+}
+
+.neighbor-flag img {
+    width: 600px;
+    height: 400px;
+    vertical-align: middle;
+}
+.guild{
+    display: none;
+}
